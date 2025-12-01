@@ -2,7 +2,7 @@
 name = "vless-checker"
 version = "1.0.0"
 description = "VLESS Server Checker with GUI"
-authors = ["darkon <sautral67@gmail.com>"]
+authors = ["DarKon <sautral67@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "vless", from = "src" }]
 
@@ -10,6 +10,7 @@ packages = [{ include = "vless", from = "src" }]
 python = "^3.10"
 flet = ">=0.24.0"
 aiohttp = "^3.9.0"
+pyinstaller = ">=3.10.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
