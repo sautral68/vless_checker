@@ -50,7 +50,7 @@ jobs:
 
     - name: Build EXE with Flet
       run: |
-        poetry run flet pack src/vless/checker.py --name "VLESSChecker" --icon icon.png
+        poetry run flet pack src/vless/checker.py --name "VLESSChecker" --icon icon.ico
 
     - name: Get version
       id: version
